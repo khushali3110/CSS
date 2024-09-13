@@ -1,7 +1,27 @@
 .para{
  background-color: lightcoral;
- color: blueviolet;
+ color: rgb(195, 24, 187);
  font-size: 20px;
  width: 100%;
  height:500px;
-}   
+} 
+
+#h1{
+    width: 200%;
+    height:200%;
+    color:rgb(217, 230, 173);
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    font-size: 30px;
+    background-color: lightcoral;
+    line-height: 40px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    line-height: 100px;
+    text-align: start;
+    text-indent: 300px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: "Playwrite CU";
+
+}
