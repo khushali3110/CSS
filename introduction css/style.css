@@ -25,3 +25,26 @@
     font-family: "Playwrite CU";
 
 }
+
+.para{
+    width: 200%;
+    height: 200%;
+}
+
+#id{
+    width: 20px;
+    height: 20px;
+}
+
+.fa-face-tired{ 
+    font-size: 200px; 
+}
+
+.fa-face-smile-beam{
+    font-size: 200px;
+}
+
+.fa-face-grin-squint-tears{
+    font-size: 200px;
+}
+
