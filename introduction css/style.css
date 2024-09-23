@@ -58,7 +58,7 @@
     border:2px solid;
 }
 
-.c1{
+.cotaint1{
     background-color: #CDC1FF;
     height: 500px;
     border: 1px solid;
@@ -68,10 +68,10 @@
     background-position: center;  
 }
 
-.k1{
+.cost1{
     background-color: #CDC1FF;
     height: 500px;
-    background:linear-gradient(to left , #7695FF, #9DBDFF, #FFD7C4, #FF9874) ; 
+    background:linear-gradient(45deg , #7695FF, #9DBDFF, #FFD7C4, #FF9874) ; 
 }
 
 .box1{
@@ -79,9 +79,18 @@
     height: 500px;
     width: 500px;
     border: 1px solid;
-    background: repeating-radial-gradient(#e66465, #9198e5 20%);
+    background: repeating-radial-gradient(#e66465, #9198e5 10%);
     background-attachment: local;
-    
+    background: radial-gradient(circle at 100%, #333, #333 50%, #eee 75%, #333 75%);
+    /* background: repeating-linear-gradient(45deg, #3f87a6, #ebf8e1 15%, #f69d3c 20%);z */
+    /* background: repeating-linear-gradient(transparent, #4d9f0c 40px); */
+    background: repeating-linear-gradient(0.25turn, transparent, #3f87a6 20px);
+    background: repeating-conic-gradient(
+    from 45deg at 10% 50%,
+     brown 0deg 10deg,
+     darkgoldenrod 10deg 20deg,
+     chocolate 20deg 30deg
+    );
 }
 
 
