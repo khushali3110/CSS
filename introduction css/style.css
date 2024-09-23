@@ -24,6 +24,7 @@
     text-transform: capitalize;
     font-family: "Playwrite CU";
 
+
 }
 
 .para{
@@ -55,7 +56,32 @@
     width: 200vw;
     height: 200vh;
     border:2px solid;
+}
 
+.c1{
+    background-color: #CDC1FF;
+    height: 500px;
+    border: 1px solid;
+    background-image: url(https://picsum.photos/id/25/200/300);
+    background-repeat: no-repeat;
+    background-size: contain;  
+    background-position: center;  
+}
+
+.k1{
+    background-color: #CDC1FF;
+    height: 500px;
+    background:linear-gradient(to left , #7695FF, #9DBDFF, #FFD7C4, #FF9874) ; 
+}
+
+.box1{
+    background-color: #CDC1FF;
+    height: 500px;
+    width: 500px;
+    border: 1px solid;
+    background: repeating-radial-gradient(#e66465, #9198e5 20%);
+    background-attachment: local;
+    
 }
 
 
