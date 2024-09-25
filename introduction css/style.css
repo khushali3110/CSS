@@ -1,4 +1,11 @@
-.para{
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.para23{
  background-color: lightcoral;
  color: rgb(195, 24, 187);
  font-size: 20px;
@@ -74,7 +81,7 @@
     background:linear-gradient(45deg , #7695FF, #9DBDFF, #FFD7C4, #FF9874) ; 
 }
 
-.box1{
+.box5{
     background-color: #CDC1FF;
     height: 500px;
     width: 500px;
@@ -82,8 +89,8 @@
     background: repeating-radial-gradient(#e66465, #9198e5 10%);
     background-attachment: local;
     background: radial-gradient(circle at 100%, #333, #333 50%, #eee 75%, #333 75%);
-    /* background: repeating-linear-gradient(45deg, #3f87a6, #ebf8e1 15%, #f69d3c 20%);z */
-    /* background: repeating-linear-gradient(transparent, #4d9f0c 40px); */
+    background: repeating-linear-gradient(45deg, #3f87a6, #ebf8e1 15%, #f69d3c 20%);
+    background: repeating-linear-gradient(transparent, #4d9f0c 40px);
     background: repeating-linear-gradient(0.25turn, transparent, #3f87a6 20px);
     background: repeating-conic-gradient(
     from 45deg at 10% 50%,
@@ -91,8 +98,45 @@
      darkgoldenrod 10deg 20deg,
      chocolate 20deg 30deg
     );
+    background:repeating-conic-gradient(red 25%, yellow 30%, red 35%);
 }
 
+.box{
+        width: 500px;
+        height: 500px;
+        border: 1px solid;
+        border-radius: 5px;
+        background-color: turquoise;
+        /* padding-right: 100px; */
+        box-sizing: border-box;
+        /* margin-top: 200px; */
+        padding: 100px 200px  300px  400px;
+        margin:  100px 200px  300px  400px;
+}
 
+.para::before{
+    content: 'hello!';
+}
 
+.para::after{
+    content: 'world!';
+}
 
+.inline{
+    display: inline;
+}
+
+.span{
+    display: block;
+}
+
+.blend{
+    background-color: green;
+    width: 100px;
+    display: inline-block;
+
+}
+
+#para2{
+    display: none;
+}
