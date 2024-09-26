@@ -140,3 +140,77 @@
 #para2{
     display: none;
 }
+
+.blended-section{
+    background-image: url(./77-450x300.jpg);
+    background-color: red;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.blended-section1{
+    background-image: url(./77-450x300.jpg);
+    background-color: lightsalmon;
+    height: 500px;
+    /* background-repeat: no-repeat; */
+    background-blend-mode: screen;
+    background-size: auto;
+    background-position: center;
+}
+
+
+.blended-section2{
+    background-image: url(./77-450x300.jpg);
+    background-color: lightskyblue;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-size:contain;
+    background-position: center;
+}
+
+
+.containerr2{
+    min-width: 600px;
+    min-height: 500px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    background-color: #fff;
+}
+
+.container3{
+    width: 200vw;
+    height: 100vh;
+    background-color: black;
+}
+
+
+#containerr{
+    background-color: red;
+    height: 200px;
+}
+
+@media (min-width:1000px) and (max-width:1500px){
+    #containerr{
+        background-color: rgb(128, 0, 255);
+        height: 300px;
+        /* width: 500px; */
+    }
+}
+
+.k4{
+    background-color: #a7e664;
+    /* width: 500px; */
+    height: 400px;
+}
+
+@media (min-width:900px) and (max-width:1400px){
+    .k4{
+        background-color: rgb(128, 0, 255);
+        /* width: 500px; */
+        height: 400px;
+    }
+}
