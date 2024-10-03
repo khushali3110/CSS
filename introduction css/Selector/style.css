@@ -1,0 +1,33 @@
+/* Selectordiv,P, Div P, Div > P:
+First Letter, :First Line, :First Child, :LastChild, :Nth Child(), :Nth Last Child(), ::Selection */
+
+
+div{
+    color: blue; 
+    font-size: large;
+}
+
+div:first-letter {
+    font-size: 3rem;
+    color: red;
+}
+
+  
+div:first-line {
+    font-weight: bold;
+}
+
+div p:last-child {
+    color: yellowgreen
+}
+
+div p:nth-child(2) {
+    color: orange;
+}
+
+div p:nth-child(4) {
+   color: aquamarine;
+}
+
+  
+  
