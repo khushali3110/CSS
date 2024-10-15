@@ -1,0 +1,23 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height:200vh;
+    background-color: beige; 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-items: start;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 4px 8px red;
+    margin: 20px;
+    
+}

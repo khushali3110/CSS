@@ -1,0 +1,29 @@
+body{
+    padding: 200px;
+}
+
+.container{
+    width: 200px;
+    height: 200px;
+    background-color: burlywood;
+    box-shadow: 4px 4px 4px brown;
+    cursor: pointer;
+    transition: all 2s ease-in-out;
+}
+
+.container:hover{
+    transform: scale(1,1.2); 
+    transform: translate(400px); 
+    transform: rotate(360deg);
+    transform: skew(-45deg,45deg);
+    transform: skewY(45deg);
+    transform: scaleX(50deg);       
+}
+
+.para::before{
+    content:   '  every one is good in css  '  ;
+}
+
+.para::after{
+    content: '  every one is good in css   ';
+}
