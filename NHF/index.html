@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+
+        .main-container{
+            height: 80px;
+            width: 100vw;
+            background-color: darkorchid;
+            display: flex;
+            justify-content: space-around;
+            align-items: center; 
+        }
+
+        .logo{
+            font-size: 25px;
+            color: aliceblue;
+        }
+
+        .menu{
+           word-spacing: 10px;
+           display: flex;
+           gap: 20px; 
+        }
+
+        .menu li{
+            list-style: none;
+            
+        }
+
+        .menu li>a{
+            text-decoration: none;
+            color: aliceblue;
+            font-size: 25px; 
+        }
+
+        .section{
+            height: 300px;
+            width: 100%;
+            background-color: indianred;
+            display: flex;
+            justify-content: space-between;
+            margin-right:  10px;
+        }
+
+        .box{
+            height: 200px;
+            width: 200px;
+            background-color: floralwhite;
+            margin: 20px;
+        }
+
+        .box h2{
+            font-size: 15px;
+            text-align: center;
+            padding-top: 20px;
+
+        }
+
+        .box p{
+            font-size: 15px;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .fa-brands{
+            font-size: 25px;
+            display: flex;
+            justify-content: center;
+            padding-top: 10px;
+            
+        }
+
+        footer{
+            height: 190px;
+            width: 100vw;
+            background-color: green;
+            padding-left: 10px;
+            display: flex;
+            gap: 50px;
+            border-top-left-radius: 90px;
+            
+        }
+
+        .column{
+            padding-top: 10px;
+           
+        }
+
+        .column h1{
+            color: antiquewhite;
+            padding-left: 25px;
+        }
+
+        .column1{
+            padding-top: 50px;
+        }
+
+        .column h3{
+            font-size: 20px;
+            /* padding-top: 30px; */
+        }
+
+        .f2{
+            display: flex;
+            gap: 5px;
+            color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="logo">Brand Logo</div>
+        <ul class="menu">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Blog</a></li>
+        </ul>
+    </div>
+
+
+    <div class="section">
+        <div class="box">
+            <i class="fa-brands fa-instagram"></i>
+            <h2>INSTAGRAM</h2>
+            <P>Lorem ipsum dolor sit amet.</P>
+        </div>
+        <div class="box">
+            <i class="fa-brands fa-facebook"></i>
+            <H2>FACEBOOK</H2>
+            <P>Lorem ipsum dolor sit amet.</P>
+        </div>
+        <div class="box">
+            <i class="fa-brands fa-tiktok"></i>
+            <H2>TIKTOK</H2>
+            <P>Lorem ipsum dolor sit amet.</P>
+        </div>
+    </div>
+
+    <footer>
+        <div class="column">
+        <h1>FOOTER</h1>
+       
+            <h3>office</h3>
+            <div class="row">Application</div>
+            <div class="row">Documentation</div>
+            <div class="row">System</div>
+            <div class="row">FaQ</div>
+        </div>
+        <div class="column1">
+            <h3>PRICING</h3>
+            <div class="row">Overview</div>
+            <div class="row">Premium Plans</div>
+            <div class="row">Affillate Program</div>
+            <div class="row">Promotions</div>
+          </div>
+          <div class="column1">
+            <h3>COMPANY</h3>
+            <div class="row">About Us</div>
+            <div class="row">Blog</div>
+            <div class="row">Partnership</div>
+            <div class="row">Careers</div>
+            <div class="row">Press</div>
+          </div>
+          <div class="column1">
+            <h3>SOCIAL</h3>
+            <div class="row">Facebook</div>
+            <div class="row">Instagram</div>
+            <div class="row">Twitter</div>
+            <div class="row">Linkdin</div>
+          </div>
+          <div class="f2">
+            
+            <i class="fa-brands fa-tiktok"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-github"></i>
+          </div>
+           
+          
+    </footer>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hexagon and Triangle Animation</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        /* Hexagon Style */
+        .hexagon {
+            width: 100px;
+            height: 55px;
+            background-color: #ff6b6b;
+            position: relative;
+            animation: rotateHexagon 3s infinite alternate;
+        }
+        .hexagon:before, .hexagon:after {
+            content: "";
+            position: absolute;
+            width: 0;
+            border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
+        }
+        .hexagon:before {
+            bottom: 100%;
+            border-bottom: 27.5px solid #ff6b6b;
+        }
+        .hexagon:after {
+            top: 100%;
+            width: 0;
+            border-top: 27.5px solid #ff6b6b;
+        }
+
+        /* Right Triangle Style */
+        .triangle {
+            width: 0;
+            height: 0;
+            border-left: 0 solid transparent;
+            border-bottom: 0 solid #3498db;
+            animation: growTriangle 2s forwards infinite alternate;
+        }
+
+        /* Hexagon Animation */
+        @keyframes rotateHexagon {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* Triangle Animation */
+        @keyframes growTriangle {
+            0% {
+                border-left-width: 0;
+                border-bottom-width: 0;
+            }
+            100% {
+                border-left-width: 150px;
+                border-bottom-width: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hexagon"></div>
+    <div class="triangle"></div>
+</body>
+</html>

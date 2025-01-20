@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blend-mode property</title>
+    <style>
+
+    .container{
+        width: 400px;
+        height: 400px;
+        background-repeat:  no-repeat;
+        /* background-repeat: no-repeat; */
+        background-image: url("https://picsum.photos/id/249/200/300");
+        /* background-blend-mode:  multiply; */
+        /* background-blend-mode:  overlay; */
+        background-blend-mode:  darken4r4;
+        /* background-size:contain;
+        background-size:cover; */
+        background-size:contain;
+        background-position: center;
+        /* background-color: lightskyblue; */
+    }
+          
+    </style>
+</head>
+<body>  
+        <div class="container"></div>
+        
+        <p>Edge prior 79 do not support the background-blend-mode property.</p>
+
+        
+</body>
+</html>
